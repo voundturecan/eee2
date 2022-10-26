@@ -1,1 +1,56 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Log In</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<div class="wrap">
+  <header id="header">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <button id="primary-nav-button" type="button">Menu</button>
+                  <a href="https://devmitanshu.github.io/Course_Shop_App-Home-page/"><div class="logo">
+                      Course Shop App
+                  </div></a>
+                  <nav id="primary-nav" class="dropdown cf">
+                      <ul class="dropdown menu">
+                              
+                        
+                          <li><a href="https://devmitanshu.github.io/Course_Shop_App-Sign-Up-Page/">Sign Up</a></li>
+
+                      </ul>
+                  </nav><!-- / #primary-nav -->
+              </div>
+          </div>
+      </div>
+  </header>
+</div>
+
+
+<div id="login-box">
+    <div class="left">
+      <h1>Log In</h1>
+      <input type="text" name="email" placeholder="E-mail" />
+      <input type="password" name="password" placeholder="Password" />
+      <input type="submit" name="signup_submit" value="Sign me up" />
+    </div>
+    
+    <div class="right">
+      <span class="loginwith">Log in with<br />social network</span>
+      
+      <button class="social-signin facebook">Log in with facebook</button>
+      <button class="social-signin twitter">Log in with Twitter</button>
+      <button class="social-signin google">Log in with Google+</button>
+    </div>
+    <div class="or">OR</div>
+  </div>
